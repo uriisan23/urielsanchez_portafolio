@@ -1,0 +1,71 @@
+.banner_port{
+    
+    background:#f8fbfc;
+    padding: .5em;
+    border-radius: 10px;
+    -webkit-box-shadow: -2px 15px 20px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 15px 20px 1px rgba(0,0,0,0.75);
+    box-shadow: -2px 15px 20px 1px rgba(0,0,0,0.75);
+    margin:0 2% 5% 2%;
+  }
+
+   .demo{
+    width:105px;
+    height: 110px;
+    margin-bottom: 40%;
+   }
+
+
+  .imgPort{
+    width: 100px;
+    margin: 2em;
+ }
+ 
+ .imgPort:hover{
+   opacity:.3;
+ }
+
+  .SubTitle{
+    font-size: 2.5em;
+    margin: 3% 25% 3% 25%;
+    text-align: center;
+  }
+
+  .tooltip {
+    position: relative;
+    display: inline-block;
+   
+  }
+  
+  .tooltip .tooltiptext {
+    display: none;
+    width: 120px;
+    background-color:#002133;
+    color: rgb(245, 235, 235);
+    opacity:.6;
+    text-align: center;
+    border-radius: 6px;
+    padding: 6%;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    left: 60%;
+     
+  }
+  
+  .tooltip:hover .tooltiptext {
+    display: block;
+  }
+
+  @media screen and (max-width:750px)
+  {
+
+    .SubTitle{
+      font-size: 2.5em;
+      margin: 2% 0 1% 0%;
+      text-align: center;
+    }
+  
+  } 

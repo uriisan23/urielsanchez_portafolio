@@ -1,0 +1,86 @@
+.banner_exp{
+  color:white;
+  background:#002133;
+  padding: .5em;
+  border-radius: 10px;
+  -webkit-box-shadow: -2px 15px 20px 1px rgba(0,0,0,0.75);
+  -moz-box-shadow: -2px 15px 20px 1px rgba(0,0,0,0.75);
+  box-shadow: -2px 15px 20px 1px rgba(0,0,0,0.75);
+  margin:0 2% 5% 2%;
+}
+
+.col-1{
+    width: 30%;
+    float:left;
+}
+
+.col-2{
+    width: 70%;
+    float:right;
+}
+
+.col-1-reverse{
+  width: 70%;
+  float:left;
+}
+
+.col-2-reverse{
+  width: 30%;
+  float:right;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.imgAcerca{
+  width:100%;
+  height:auto;
+  margin:auto;
+  min-width: 300px;
+}
+
+aside{
+  width:100%;
+  margin-top:4em; 
+ } 
+
+ 
+
+
+ @media screen and (max-width:750px)
+{
+      .col-1{
+        width: 100%;
+    }
+
+    .col-2{
+      width: 100%;
+    
+    }
+
+    .col-1-reverse{
+      width: 100%;
+    }
+    
+    .col-2-reverse{
+      width: 100%;
+    }
+
+    .textSubTitle {
+      width: 100%;
+      font-size: 2em;
+      margin: 2% 0 1% 10%;
+    }
+
+    .textTitle{
+      width: 100%;
+      font-size: 3em;
+      margin: 2% 0 1% 10%;
+    }
+
+
+}
+

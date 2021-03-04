@@ -1,0 +1,58 @@
+.backg{
+    background:#002133;
+}
+
+form{
+ 
+  padding:2%;
+ 
+}
+
+ form  input {
+  width:100%;
+  height: 16px;
+  padding:1em;
+  margin:.5em;
+  border:.5px #002133;
+  border-radius: 2%;
+  align-self:center;
+  color:darkgray;
+}
+
+ form  button{
+    width:50%;
+    
+    height:2em;
+    margin:2em .5em .5em .5em;
+    border:.5px #002133;
+    border-radius: 2%;
+    align-self:center;
+    background:#d9e6f2;
+    color:rgb(5, 4, 112);
+    text-align:center;
+    align-self:center;
+}
+
+
+@media screen and (max-width:750px)
+{
+
+#perfil, #contacto{
+  width:100%;
+  align-items:center;
+}
+}
+
+
+@media screen and (max-width:380px)
+{
+.navMenu {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  padding: .5em;
+}
+
+}
