@@ -30,9 +30,9 @@ const contacto = () => {
            <Container id="perfil"><Perfil src={Self} alt="Uriel Sanchez" />  </Container>
               
            <Container id="contacto">
-               <a href="https://www.linkedin.com/in/usanchez82" target="_blank"><Linkis2 src={ln} alt="Uriel Sanchez"></Linkis2> </a> 
-               <a href="https://github.com/uriisan23" target="_blank"><Linkis src={Git} alt="Git Hub" ></Linkis></a> 
-               <a href={cvPdf} target="_blank" ><Linkis src={cv}  alt="CV" ></Linkis></a>
+               <a href="https://www.linkedin.com/in/usanchez82" target="_blank" className="tooltip"><Linkis2  src={ln} alt="Uriel Sanchez" /><span className="tooltiptext" >Linkedn</span> </a> 
+               <a href="https://github.com/uriisan23" target="_blank"  className="tooltip"><Linkis src={Git} alt="Git Hub" /><span className="tooltiptext">GitHub</span></a> 
+               <a href={cvPdf} target="_blank"  className="tooltip" ><Linkis src={cv}  alt="CV" /><span className="tooltiptext">Curriculum</span></a>
            
            </Container>
 

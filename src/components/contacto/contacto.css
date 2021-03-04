@@ -33,6 +33,34 @@ form{
     align-self:center;
 }
 
+.tooltip {
+  position: relative;
+  display: inline-block;
+ 
+}
+
+.tooltip .tooltiptext {
+  display: none;
+  width: 120px;
+  background-color:#8cb3d9;
+  color: rgb(245, 235, 235);
+  opacity:.6;
+  text-align: center;
+  border-radius: 6px;
+  padding: 2%;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: 10px;
+  left: 22%;
+   
+}
+
+.tooltip:hover .tooltiptext {
+  display: block;
+}
+
 
 @media screen and (max-width:750px)
 {
