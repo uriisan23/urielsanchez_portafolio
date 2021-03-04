@@ -7,6 +7,7 @@ import cv from '../../images/CVpicto.png'
 import Footer from '../footer/Footer'
 import styled from 'styled-components';
 
+const cvPdf = "https://whsfiles.blob.core.windows.net/koodoni/Curriculum_es-mx.pdf?sp=r&st=2021-03-04T06:10:49Z&se=2024-03-04T14:10:49Z&sv=2020-02-10&sr=b&sig=BOsQiOP5JbWBvIhbP9m8%2BrbRaMCkZZo35Ygc6cio8lo%3D"
 
 const contacto = () => {
     const Formularios =() =>{ return (   
@@ -31,7 +32,7 @@ const contacto = () => {
            <Container id="contacto">
                <a href="https://www.linkedin.com/in/usanchez82" target="_blank"><Linkis2 src={ln} alt="Uriel Sanchez"></Linkis2> </a> 
                <a href="https://github.com/uriisan23" target="_blank"><Linkis src={Git} alt="Git Hub" ></Linkis></a> 
-               <a href="https://uriisan23.github.io/portafolio/"><Linkis src={cv}  alt="CV" ></Linkis></a>
+               <a href={cvPdf} target="_blank" ><Linkis src={cv}  alt="CV" ></Linkis></a>
            
            </Container>
 
