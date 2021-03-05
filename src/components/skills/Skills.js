@@ -40,7 +40,7 @@ const skills = (props) => {
          <Route exact path="/frameworks" component={Frames}></Route>
          <Route exact path="/herramientas" component={Herramientas}></Route>
          <Route exact path="/otros" component={Otros}></Route>
-        
+          <Route component={Lenguajes}></Route>
      </Switch>
     
    </div>
