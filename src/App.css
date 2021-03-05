@@ -87,3 +87,15 @@ a{
   border-top:.5px solid #00e6e6;
   padding:2%;
 }
+
+@media screen and (max-width:380px)
+{
+
+  .navMenu >nav ul li{
+    font-size:large;
+    display:block;
+    padding:1% 2em 1% 2em;
+    margin:auto;
+    color:white;
+  }
+}

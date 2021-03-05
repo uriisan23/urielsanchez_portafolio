@@ -24,10 +24,10 @@ const skills = (props) => {
   <div className="navMenu"  id="skills">
        <nav>
            <ul>
-               <li className="List"><NavLink to="/lenguajes">LENGUAJES </NavLink></li>
-               <li className="List"><NavLink to="/frameworks" >FRAMEWORKS</NavLink></li>
-               <li className="List"><NavLink to="/herramientas">HERRAMIENTAS</NavLink></li>
-               <li className="List"><NavLink to="/otros">OTROS</NavLink></li>
+               <li className="List"><NavLink to="./lenguajes">LENGUAJES </NavLink></li>
+               <li className="List"><NavLink to="./frameworks" >FRAMEWORKS</NavLink></li>
+               <li className="List"><NavLink to="./herramientas">HERRAMIENTAS</NavLink></li>
+               <li className="List"><NavLink to="./otros">OTROS</NavLink></li>
            </ul>
        </nav>
 

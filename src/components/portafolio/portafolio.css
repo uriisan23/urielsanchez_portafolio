@@ -69,3 +69,14 @@
     }
   
   } 
+
+
+  @media screen and (max-width:380px)
+  {
+
+      .imgPort {
+        width: 100px;
+        margin: 2em 2em 2em 6em;
+      }
+
+  }
