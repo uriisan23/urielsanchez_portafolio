@@ -35,12 +35,11 @@ const skills = (props) => {
    
    <div className="navMenu">
      <Switch>
-         <Route exact path="/" component={Lenguajes}></Route>
          <Route exact path="/lenguajes"  component={Lenguajes}></Route>
          <Route exact path="/frameworks" component={Frames}></Route>
          <Route exact path="/herramientas" component={Herramientas}></Route>
          <Route exact path="/otros" component={Otros}></Route>
-          <Route component={Lenguajes}></Route>
+         <Route component={Lenguajes}></Route>
      </Switch>
     
    </div>
