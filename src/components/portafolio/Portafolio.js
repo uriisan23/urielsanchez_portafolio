@@ -23,13 +23,17 @@ const portafolio = () => {
             <span className="tooltiptext">
               <h4>Potsolli Calli</h4>
               <h6>Pagina Web</h6>
+              <h6>Azure Web App HTML + CSS</h6>
+              
             </span>
+       
         </a>
         <a href="https://koodonisoftware.azurewebsites.net/" target="_blank" className="tooltip">
           <img src={koodoni} alt="Koodoni" className="imgPort"/>
               <span className="tooltiptext">
                 <h4>Koodoni</h4>
                 <h6>Pagina Web</h6>
+                <h6>Azure Web App sin almacenamiento PHP + JS + Ajax + Azure Logic App </h6>
               </span>
         </a>
         <a href="http://lunatikaclothes.com/index.php" target="_blank" className="tooltip">
@@ -37,6 +41,7 @@ const portafolio = () => {
               <span className="tooltiptext">
                   <h4>Lunatika</h4>
                   <h6>Pagina Web</h6>
+                  <h6> PHP MVC + Ajax + MySQL</h6>
               </span>
           </a>
         <a href="https://uriisan23.github.io/AlChile/" target="_blank" className="tooltip">
@@ -44,6 +49,7 @@ const portafolio = () => {
               <span className="tooltiptext">
                   <h4>Al Chile</h4>
                   <h6>Pagina Web</h6>
+                  <h6>Bootstrap </h6>
               </span>
         </a>
        
@@ -52,8 +58,9 @@ const portafolio = () => {
               <source src={mms} type="video/mp4" />
           </video>
               <span className="tooltiptext">
-                  <h4>Aplicacion VB</h4>
+                  <h4>Aplicacion Desktop</h4>
                   <h6>Demo</h6>
+                  <h6>VB + Access</h6>
               </span>
          </div>
 
@@ -62,8 +69,8 @@ const portafolio = () => {
               <source src= {med} type="video/mp4" />
           </video>
               <span className="tooltiptext">
-                  <h4>Aplicacion C#</h4>
-                  <h6>Demo</h6>
+                  <h4>Aplicacion Desktop</h4>
+                  <h6>C# + SQL Server</h6>
               </span>
          </div>
 
@@ -73,8 +80,8 @@ const portafolio = () => {
               <source src= {mensweb} type="video/mp4" />
           </video>
               <span className="tooltiptext">
-                  <h4>Aplicacion VB</h4>
-                  <h6>Demo</h6>
+                  <h4>Aplicacion Desktop</h4>
+                  <h6>VB + Access</h6>
               </span>
          </div>
        

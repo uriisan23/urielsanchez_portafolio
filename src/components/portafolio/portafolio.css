@@ -42,7 +42,7 @@
     width: 120px;
     background-color:#002133;
     color: rgb(245, 235, 235);
-    opacity:.6;
+    
     text-align: center;
     border-radius: 6px;
     padding: 6%;
@@ -50,14 +50,16 @@
     /* Position the tooltip */
     position: absolute;
     z-index: 1;
-    top: -5px;
-    left: 60%;
+    top: 2%;
+    left: 60%; 
      
   }
   
   .tooltip:hover .tooltiptext {
     display: block;
   }
+
+
 
   @media screen and (max-width:750px)
   {
@@ -69,6 +71,7 @@
     }
   
   } 
+
 
 
   @media screen and (max-width:380px)
